@@ -4,6 +4,7 @@ import { Provider } from "react-redux";
 import { Container, Typography } from "@mui/material";
 import AddFormHabit from "./components/add-habit-form";
 import HabitList from "./components/habit-list";
+import HabitStats from "./components/habit-stats";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </Typography>
         <AddFormHabit />
         <HabitList />
+        <HabitStats />
       </Container>
     </Provider>
   );
